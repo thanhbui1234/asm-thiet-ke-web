@@ -2,42 +2,51 @@ body {
     padding: 0;
     margin: 0;
 }
+
 .container {
 
     margin: 0 auto;
-    height: 1500px;
+    height: 1300px;
 
 }
-.logo {
 
-    text-align: right;
-}
-.award {
-    text-align: center;
-    margin-left: 100px;
-}
-.header .logo {
-    display: inline-block;
-    text-align: center;
-}
 header {
     padding-top: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.logo {
+
+    text-align: right;
+}
+
+.award {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.header .logo {
+    display: inline-block;
+    text-align: center;
+}
+
 .sign-search {
     padding-top: 25px;
     padding-left: 170px;
 }
+
 .sign {
     padding-left: 150px;
     padding-bottom: 5px;
 }
+
 #text-sgin {
     color: #827676;
     text-decoration: none;
     font-size: 17px;
 }
+
 #icon-home {
     padding-right: 50px;
     color: #2b82ac;
@@ -63,7 +72,7 @@ header {
 nav {
     text-align: center;
     line-height: 50px;
- 
+
     height: 50px;
     background-color: #f2b002;
 }
@@ -71,58 +80,166 @@ nav {
 
 
 nav a {
-    font-weight: bold;
+
     padding: 0 15px;
-    font-variant: small-caps;
+
     color: black;
     text-decoration: none;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#about>li {
+    /* width: 40px; */
 }
 
 nav ul li {
+
     display: inline-block;
 }
 
 nav>ul>li {
-    border-right: 0.5px solid rgb(87, 82, 82);  
+    border-right: 0.5px solid rgb(87, 82, 82);
 }
 
 h2 {
     height: 25px;
     line-height: 25px;
-    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+
     font-style: italic;
     color: red;
     padding-top: 5px;
     margin-block-start: 0;
-    margin-block-end: 0;
+    /* margin-block-end: 0; */
 }
 
-.menu ul li{
+/* about *******/
+.menu ul li {
     position: relative;
-  
-
 }
-.menu ul li>.about{
-    display: none;  
+.menu ul li>.about {
+    display: none;
     position: absolute;
 }
-.menu ul li:hover .about{
-
-    
+.menu ul li:hover .about {
     display: block;
     background-color: white;
 
 }
-.menu ul li a:hover{
+
+.menu ul li a:hover {
     color: #2b82ac;
+}
+
+.about a {
+ 
+    
+    display: block;
+    width: 110px;
+    border-bottom: 1px solid grey;
+    /* right: 10px; */
+   
+}
+#about1 {
+    padding-right: 7px;
+    color: orange;
+}
+
+#about2 {
+    padding-right: 12px;
+    color: orange;
 
 }
-.about  a{
+
+#about3 {
+    padding-right: 7px;
+    color: orange;
+
+}
+/* about********** */
+.menu>ul>li>.group{
+    position: absolute;
+    display: none;
+}
+.menu>ul>li:hover>.group{
+    display: block;
+    background-color: white;
+}
+.group a{
+    display: block;
+    width: 150px;
+    border-bottom: 1px solid grey;
+
+}
+
+.menu>ul>li>.newss{
+    position: absolute;
+    display: none;
+}
+.menu>ul>li:hover>.newss{
+    background-color: white;
     display: block;
 }
+.newss a{
+    display: block;
+    width: 170px;
+    border-bottom: 1px solid grey;
+}
 
-    /* background-color: orangered; */
+.menu>ul>li>.huongnghiep{
+    position: absolute;
+    display: none;
+}
+.menu>ul>li:hover>.huongnghiep{
+    background-color: white;
+    display: block;
+}
+.huongnghiep a{
+    display: block;
+    width: 200px;
+    border-bottom: 1px solid grey;
+}
+.menu>ul>li>.noitru{
+    position: absolute;
+    display: none;
+}
+.menu>ul>li:hover>.noitru{
+    background-color: white;
+    display: block;
+}
+.noitru a{
+    display: block;
+    width: 180px;
+    border-bottom: 1px solid grey;
+}
+
+.menu>ul>li>.tainguyen{
+    position: absolute;
+    display: none;
+}
+.menu>ul>li:hover>.tainguyen{
+    background-color: white;
+    display: block;
+}
+.tainguyen a{
+    display: block;
+    width: 150px;
+    border-bottom: 1px solid grey;
+}
+.menu>ul>li>.giaoduc{
+    position: absolute;
+    display: none;
+}
+.menu>ul>li:hover>.giaoduc{
+    background-color: white;
+    display: block;
+}
+.giaoduc a{
+    display: block;
+    width: 220px;
+    border-bottom: 1px solid grey;
+}
+
 
 .li-home {
     padding-left: 50px;
@@ -148,12 +265,13 @@ marquee {
 }
 
 .big-infomation {
-    
+
     position: relative;
     padding: 50px 100px;
     display: grid;
     grid-template-columns: 75% 1fr;
 }
+
 .articel {
 
     position: relative;
@@ -168,7 +286,7 @@ marquee {
 
 .articel-child a {
     position: absolute;
-    
+
     top: 20px;
     left: 450px;
 
@@ -191,17 +309,19 @@ marquee {
     position: absolute;
     left: 20px;
 }
-.articel-annouce{
+
+.articel-annouce {
 
     text-align: center;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-columns: 25% 25% 25% 25%;
     position: absolute;
-    top :300px;
-   
+    top: 300px;
+
 
 }
-.articel-annouce a{
+
+.articel-annouce a {
     text-decoration: none;
 }
 
@@ -216,15 +336,17 @@ aside img {
     position: absolute;
     left: 600px;
 }
+
 .new {
 
     display: grid;
     grid-template-columns: 47% 1fr;
     padding-bottom: 15px;
     padding-top: 10px;
-    border-bottom: 1px solid gray   ;
-    
+    border-bottom: 1px solid gray;
+
 }
+
 .new a {
     text-decoration: none;
 }
@@ -234,16 +356,23 @@ aside img {
     color: orange;
 }
 
-footer{
+footer {
     display: grid;
-    grid-template-columns:70% 30% ;
-  
-    margin: 140px;
+    grid-template-columns: 70% 30%;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #FEF9A7;
+    
+
 }
-.footer-left{
+
+.footer-left {
     font-size: large;
+    text-align: left;
+    padding-left: 40px;
 }
-.footer-left h4{
+
+.footer-left h4 {
     color: #3e3e3e;
     font-size: 16px;
     font-weight: bold;
@@ -251,50 +380,68 @@ footer{
     display: inline-block;
 
 }
-.adress-footer{
+
+.adress-footer {
     color: #3e3e3e;
     font-size: 14px;
-padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 
 }
-#address{
+
+#address {
     color: orange;
 }
-.phone_number-footer{
+
+.phone_number-footer {
     color: #3e3e3e;
     font-size: large;
 }
-#phone{
+
+#phone {
     padding: 5px 0;
     color: orange;
 
 }
-.footer-right{
-word-spacing: 1px;
+
+.footer-right {
+    word-spacing: 1px;
+    text-align: right;
+    padding-right: 70px;
 }
-.active_person{
+
+.active_person {
     padding-bottom: 5px;
+    /* padding-right: 5px; */
 
 }
-.sum_person{
-    padding-bottom: 5px;
+
+.sum_person {
+        padding-right: 15px;
+
 }
-#user{
+
+#user {
     color: orange;
-    padding-right: 5px;
+    
 }
-#users{
-    padding-right: 5px;
+
+#users {
+   
 
     color: orange;
 }
-span{
+
+span {
     color: #0053b1;
 }
-.creat{
+
+.creat {
     color: orange;
+    padding-left: 30px
 }
-#author{
+
+#author {
+    
     text-decoration: none;
     font-size: large;
 }

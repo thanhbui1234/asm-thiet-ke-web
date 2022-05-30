@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    background-image: url(img/nui.jpg);
+
+}
+.login {
+    position: absolute;
+    width: 330px;
+    height: 450px;
+    padding-top: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    top: 140px;
+left: 350px;
+}
+h2{
+    color: grey;
+    font-size: 30px;
+}
+.box {
+    padding: 11px 0 ;
+}
+input{
+    width: 200px;
+    height: 44px    ;
+   
+    padding: 5px;
+    
+    border-radius: 5px;
+}
+.login .label{
+
+    text-align: left;
+}
+button{
+    border: none;
+    background-color: #36AE7C;
+    border-radius: 5px;
+    width: 85%;
+    height: 30px;
+    margin: 10px;
+    color: white;
+}
+button:hover{
+    font-size: 14px;
+   
+}

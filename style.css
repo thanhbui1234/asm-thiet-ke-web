@@ -50,6 +50,7 @@ header {
 #icon-home {
     padding-right: 50px;
     color: #2b82ac;
+    /* border-left:1px solid gray ; */
 }
 
 #icon-sign {
@@ -98,6 +99,10 @@ nav ul li {
 
     display: inline-block;
 }
+.li-home{
+    border-left: 0.5px solid rgb(87, 82, 82);
+}
+    
 
 nav>ul>li {
     border-right: 0.5px solid rgb(87, 82, 82);

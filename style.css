@@ -88,8 +88,10 @@ nav a {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#about>li {
-    /* width: 40px; */
+
+#about li a{
+  
+    width: 30px;
 }
 
 nav ul li {
@@ -130,9 +132,12 @@ h2 {
 .menu ul li a:hover {
     color: #2b82ac;
 }
+.menu>ul>li>ul {
+    padding-inline-start: 0px;
+}
 
 .about a {
- 
+
     
     display: block;
     width: 110px;

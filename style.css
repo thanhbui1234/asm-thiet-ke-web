@@ -134,6 +134,7 @@ h2 {
 }
 .menu>ul>li>ul {
     padding-inline-start: 0px;
+    
 }
 
 .about a {
@@ -141,7 +142,7 @@ h2 {
     
     display: block;
     width: 110px;
-    border-bottom: 1px solid grey;
+    border: 1px solid grey;
     /* right: 10px; */
     text-align: left;
 
@@ -175,11 +176,11 @@ h2 {
 .group a{
     display: block;
     width: 150px;
-    border-bottom: 1px solid grey;
+    border: 1px solid grey;
     text-align: left;
 
 
-}
+} 
 
 .menu>ul>li>.newss{
     position: absolute;
@@ -192,7 +193,7 @@ h2 {
 .newss a{
     display: block;
     width: 170px;
-    border-bottom: 1px solid grey;
+    border: 1px solid grey;
     text-align: left;
 }
 
@@ -222,7 +223,7 @@ h2 {
 .Boarding a{
     display: block;
     width: 180px;
-    border-bottom: 1px solid grey;
+    border: 1px solid grey;
     text-align: left;
     
 }
@@ -238,7 +239,7 @@ h2 {
 .resources a{
     display: block;
     width: 150px;
-    border-bottom: 1px solid grey;
+    border: 1px solid grey;
     text-align: left;
 
 }
@@ -253,7 +254,7 @@ h2 {
 .education a{
     display: block;
     width: 220px;
-    border-bottom: 1px solid grey;
+    border: 1px solid grey;
     text-align: left;
 
 }

@@ -138,6 +138,8 @@ h2 {
     width: 110px;
     border-bottom: 1px solid grey;
     /* right: 10px; */
+    text-align: left;
+
    
 }
 #about1 {
@@ -169,6 +171,8 @@ h2 {
     display: block;
     width: 150px;
     border-bottom: 1px solid grey;
+    text-align: left;
+
 
 }
 
@@ -184,60 +188,69 @@ h2 {
     display: block;
     width: 170px;
     border-bottom: 1px solid grey;
+    text-align: left;
 }
 
-.menu>ul>li>.huongnghiep{
+.menu>ul>li>.vocational-guidance {
     position: absolute;
     display: none;
 }
-.menu>ul>li:hover>.huongnghiep{
+.menu>ul>li:hover>.vocational-guidance {
     background-color: white;
     display: block;
 }
-.huongnghiep a{
+.vocational-guidance  a{
     display: block;
     width: 200px;
     border-bottom: 1px solid grey;
+    text-align: left;
+
 }
-.menu>ul>li>.noitru{
+.menu>ul>li>.Boarding{
     position: absolute;
     display: none;
 }
-.menu>ul>li:hover>.noitru{
+.menu>ul>li:hover>.Boarding{
     background-color: white;
     display: block;
 }
-.noitru a{
+.Boarding a{
     display: block;
     width: 180px;
     border-bottom: 1px solid grey;
+    text-align: left;
+    
 }
 
-.menu>ul>li>.tainguyen{
+.menu>ul>li>.resources{
     position: absolute;
     display: none;
 }
-.menu>ul>li:hover>.tainguyen{
+.menu>ul>li:hover>.resources{
     background-color: white;
     display: block;
 }
-.tainguyen a{
+.resources a{
     display: block;
     width: 150px;
     border-bottom: 1px solid grey;
+    text-align: left;
+
 }
-.menu>ul>li>.giaoduc{
+.menu>ul>li>.education{
     position: absolute;
     display: none;
 }
-.menu>ul>li:hover>.giaoduc{
+.menu>ul>li:hover>.education{
     background-color: white;
     display: block;
 }
-.giaoduc a{
+.education a{
     display: block;
     width: 220px;
     border-bottom: 1px solid grey;
+    text-align: left;
+
 }
 
 

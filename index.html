@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <audio autoplay>
+    <!-- <audio autoplay>
         <source src="mp4/y2mate.com - Ngọt vc Đen  Cho Tôi Lang Thang_144p.3gp">
-    </audio>
+    </audio> -->
     <div class="container">
         <header>
             <div class="logo">
@@ -124,7 +124,12 @@
 
 
         <div class="banner">
-            <!-- <iframe src="https://albumizr.com/a/6G84" scrolling="no" frameborder="0" allowfullscreen width="auto" height="auto"></iframe> -->
+            <img id="banner" src="/img/banner0.jpg" alt="">
+            <!-- <button  onclick="next()">next</button> -->
+            <p id="next" onclick="Next()"><i class="fa-solid fa-angle-right"></i></p>
+            <p id="previous" onclick="Previous()"><i class="fa-solid fa-angle-left"></i></p>
+
+
         </div>
         <div class="backgourd">
 
@@ -244,6 +249,48 @@
     <div class="fb-like" data-href="https://asm-thiet-ke-web.vercel.app/" data-width="" data-layout="button" data-action="like" data-size="small" data-share="true"></div> -->
 
     <script src="https://uhchat.net/code.php?f=1d9580"></script>
+    <script>
+        img = [];
+        for (let i = 0; i < 6; i++) {
+            img[i] = new Image();
+            img[i].src = '/img/banner'+i+'.jpg'
+
+        }
+        var index = 0
+        function auto() {
+            index++;
+            if (index == img.length)
+                index = 0;
+            var anh = document.getElementById('banner')
+            anh.src = img[index].src
+            t = setTimeout('auto()', 3000)
+
+        } function stop() {
+            clearTimeout(t)
+        }
+        function Previous() {
+            index--;
+            if (index < 0)
+                index = 0
+            var anh = document.getElementById('banner')
+            anh.src = img[index].src
+
+        }
+        function Next() {
+            index++;
+            if (index >= img.length)
+                index = 0
+            var anh = document.getElementById('banner')
+            anh.src = img[index].src
+
+        }
+        window.onload(auto())
+         //
+         //
+
+
+
+    </script>
 </body>
 
 </html>

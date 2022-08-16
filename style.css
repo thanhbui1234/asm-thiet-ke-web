@@ -267,13 +267,35 @@ marquee {
     color: #FBCB0A;
 }
 
+.banner{
+    position: relative;
+}
 
-.banner {
-    background-image: url(img/banner1.jpg);
-    height: 0px;
-    background-size: 100% 100%;
-    padding-bottom: 25%;
+#banner{
+    width: 100%;
+    
+}
+#next{
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 150px;
+    color: gray;
+    font-size: 50px;
+}#next:hover{
+    color: white;
+}
+#previous{
+    cursor: pointer;
 
+    position: absolute;
+    left: 5px;
+    top: 150px;
+    color: gray;
+    font-size: 50px;
+}
+#previous:hover{
+    color: white;
 }
 .backgourd{
     width: 100%;

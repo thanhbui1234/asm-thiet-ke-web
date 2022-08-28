@@ -262,18 +262,18 @@
             if (index == img.length)
                 index = 0;
             var anh = document.getElementById('banner')
-            anh.src = img[index].src
+            anh.src = img[index].src;
             t = setTimeout('auto()', 3000)
 
         } function stop() {
             clearTimeout(t)
-        }
+        } 
         function Previous() {
             index--;
-            if (index < 0)
+            if (index < 0)  
                 index = img.length
             var anh = document.getElementById('banner')
-            anh.src = img[index].src
+            anh.src = img[index].src 
 
         }
         function Next() {

@@ -78,6 +78,10 @@ nav {
     background-color: #f2b002;
 }
 
+.menu ul li{
+    z-index: 1;
+}
+
 
 
 nav a {
